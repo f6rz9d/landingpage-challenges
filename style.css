@@ -1,0 +1,494 @@
+
+@font-face {
+  font-family: 'Barlow', sans-serif;
+  src: url();
+}
+@font-face {
+  font-family: 'Poppins', sans-serif;
+  src: url();
+}
+
+
+.wrapper {
+  background-color: #FDFDFE;
+}
+
+
+form a {
+  text-decoration: none;
+  color: black;
+}
+
+
+.lineLogin {
+  background-color: rgb(219, 219, 219);
+  width: 1px;
+  height: 22px;
+}
+
+.btnLogin {
+  border-radius: .52rem;
+}
+
+.btnLogin:hover {
+  color: #FA541C;
+}
+
+.textHeaderBanner {
+  font-family: 'Barlow';
+  font-weight: 700;
+  font-size: 3.5rem;
+  max-width: 26rem;
+}
+
+.textHeaderBanner__course{
+  color: #FA541C;
+}
+
+.textDesBanner {
+  font-family: 'Poppins';
+  max-width: 30rem;
+}
+
+.btnHeader {
+  color: white;
+  background-color: #FA541C;
+}
+
+.btnHeader__arrow {
+  margin-left: .6rem;
+  font-size: .7rem;
+}
+
+.buttonsHeader__play {
+  color: white;
+  line-height: 3rem;
+  text-align: center;
+  width: 3rem;
+  height: 3rem;
+  background-color: #22B8CF;
+  border-radius: 50%;
+}
+
+.workSection {
+  padding: 5rem 0;
+}
+
+.workSection h2 {
+  font-family: 'Barlow';
+}
+
+.workSection p {
+  font-family: 'Poppins';
+}
+
+.textWorkWithTitle {
+  font-family: 'Poppins';
+  font-weight: 600;
+  color: #FA541C;
+}
+
+.textWorkWith {
+  max-width: 30rem;
+}
+
+.textWorkWith p {
+  font-family: 'Poppins';
+}
+
+.textWorkWith__big h2 {
+  font-family: 'Barlow';
+}
+
+.textWorkWith__big p {
+  font-family: 'Poppins';
+}
+
+.oragneLine {
+  background-color: #FA541C;
+  width: 2rem;
+  height: .2rem;
+}
+
+.featureCourse {
+  padding-top: 10rem;
+}
+
+.featureCourse__title h2 {
+  font-family: 'Barlow';
+}
+.featureCourse__title p {
+  font-family: 'Poppins';
+}
+
+.featureCard {
+  width: 22.7rem;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  box-shadow: -1px 8px 50px -14px rgba(0,0,0,0.59);
+}
+
+.featureCard__imageCards {
+  border-radius: 10px 10px 0 0;
+}
+
+.manageDollar p:first-child {
+  font-size: .8rem;
+  font-weight: 600;
+  color: #FA541C;
+}
+
+.goldStar {
+  color: gold;
+}
+
+.LineDashed {
+  border: 1px dashed rgb(230, 230, 230);
+}
+
+
+.timeLevel {
+  color: rgb(160, 160, 160);
+}
+
+.bestSellerBox {
+  position: absolute;
+  right: 260px;
+  top: 17px;
+  padding: .3rem;
+  background-color: #FFC81A;
+  color: black;
+  font-weight: 800;
+  font-size: .7rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.featureCategory__title {
+  font-family: 'Barlow';
+  max-width: 10rem;
+}
+
+.featureCategory {
+  padding: 5rem 0;
+  background-color: #F9FAFB;
+  margin-top: 10rem;
+}
+.featureCategory__desc {
+  font-family: 'Poppins';
+  max-width: 20rem;
+}
+
+.featureCategory__box {
+  background-color: transparent;
+  border: 1px solid rgb(206, 206, 206);
+  border-radius: 10px 10px 10px 10px;
+  transition: all 0.5s 0s ease;
+}
+
+
+
+
+.featureCategory__box:hover {
+  background-color: white;
+  cursor: pointer;
+  color: #FA541C;
+  border: none;
+  transform: scale(1.1);
+}
+
+.featureCategory__box h5 {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 770px) and (min-width: 320px)  {
+  .featureCategory__box h5 {
+    font-size: .6rem;
+    font-weight: 600;
+  }
+}
+
+.featureCategory__box p {
+  font-size: .8rem;
+}
+@media only screen and (max-width: 770px) and (min-width: 320px)  {
+  .featureCategory__box p {
+    font-size: .5rem;
+    font-weight: 400;
+  }
+}
+.meetTeacher {
+  padding: 5rem 0;
+}
+.meetTeacher h2{
+  font-family: 'Barlow';
+}
+.meetTeacher__des {
+  margin: 2rem auto;
+  max-width: 25rem;
+  text-align: center;
+  color: gray;
+  font-family: 'Poppins';
+}
+
+.teacherBox__card {
+  padding-top: 1rem;
+  border: none;
+  background-color: white;
+  border-radius: 10px 10px 10px 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  box-shadow: -1px 8px 50px -14px rgba(204, 204, 204, 0.59);
+}
+
+.teacherBox__card--img {
+  width: 19rem;
+  height: 20rem;
+  border-radius: 0 0 10px 10px;
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0% 100%);
+}
+
+.btnTeachers {
+  font-size: .8rem;
+  font-weight: 700;
+  border: 1px solid rgb(197, 197, 197);
+  transition: .5s;
+}
+
+.btnTeachers_btn {
+  display: flex;
+  justify-content: center;
+}
+
+.btnTeachers:hover {
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
+
+
+.studentSays {
+  padding: 5rem 0;
+  background-color: #F9FAFB;
+}
+
+.studentSays h2 {
+  font-family: 'Barlow';
+}
+
+.studentSays__qoute {
+  opacity: .4;
+  margin: 3rem 0;
+}
+
+.studentSays__des {
+  max-width: 30rem;
+  text-align: center;
+  font-weight: 800;
+  font-family: 'Poppins';
+}
+
+.lastPost {
+  padding: 5rem 0;
+}
+.lastPost h2{
+  font-family: 'Barlow';
+}
+
+.lastPost__title--viewsec {
+  color: #FA541C;
+}
+
+
+.post__card--img {
+  border-radius: 10px 10px 0 0;
+}
+
+.lastPost__cards .card {
+  border-radius: 10px 10px 10px 10px;
+}
+
+.graylinePost {
+  width: 1rem;
+  background-color: rgb(184, 184, 184);
+  height: .1rem;
+}
+
+.cardDesc__des {
+  max-width: 13rem;
+}
+
+.cardDesc__des--descrip {
+  font-size: .8rem;
+}
+
+.cardDesc__user--des p:first-child {
+  font-size: .9rem;
+  font-weight: 600;
+}
+
+.cardDesc__user--des p:nth-child(2){
+  font-size: .8rem;
+}
+
+.downloadApp {
+  padding: 5rem 0;
+}
+.downloadApp h2 {
+  font-family: 'Barlow';
+}
+
+.downloadApp__desc {
+  max-width: 25rem;
+  font-family: 'Poppins';
+}
+
+
+.dowloadLineGray {
+  margin: 2rem 0;
+  border: 1px dashed rgb(207, 207, 207);
+}
+
+.qrCodeDownload {
+  margin: 5rem 0;
+  padding: 1rem;
+  border: 1px solid rgb(204, 204, 204);
+  border-radius: 10px 10px 10px 10px;
+}
+
+.qrCodeDownload p{
+  max-width: 10rem;
+  font-weight: 600;
+}
+
+.stores {
+  margin: 3rem 0 3rem 3rem;
+}
+
+.register {
+  padding: 0 0;
+}
+.register h2{
+  font-family: 'Barlow';
+  
+}
+
+.registerContainer {
+  padding: 3rem 0;
+  background-color: #FFF2ED;
+  border-radius: 20px 20px 20px 20px;
+}
+.registerContainer__desc, .registerContainer__title {
+  max-width: 30rem;
+  text-align: center;
+  font-family: 'Poppins';
+}
+.inputRegisterBox {
+  position: relative;
+  margin-top: 4rem;
+}
+.inputRegister {
+  padding-left: 1rem;
+  outline: none;
+  border: none;
+  width: 20rem;
+  height: 3rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.btnRegister {
+  position: absolute;
+  top: 5px;
+  right: 80px;
+  color: white;
+  background-color: #FA541C;
+  outline: none;
+  border: none;
+  width: 4.5rem;
+  height: 2.5rem;
+  border-radius: 10px 10px 10px 10px;
+}
+
+@media screen and (max-width: 480px) {
+  .btnRegister {
+    right: 30px;
+  }
+}
+
+.footer {
+  margin-top: 3rem;
+  border-top: 2px solid rgb(233, 233, 233) ;
+  padding: 5rem 0 1rem 0;
+}
+
+.footer p {
+  font-family: 'Poppins';
+}
+
+.socialIcons ul {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.socialIcons ul li {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.socialIcons ul li a {
+  color: black;
+}
+
+.socialIcons ul li a i {
+  font-size: 1.5rem;
+  transition: .3s;
+}
+
+.socialIcons ul li a i:hover {
+  color: #FA541C;
+}
+
+.footerEmailBox {
+  margin: 0;
+  padding: 0;
+}
+
+#footerEmail {
+  outline: none;
+  padding-left: 1rem;
+  border: none;
+  background-color:#f1f1f1;
+  width: 360px;
+  height: 48px;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.footerEmailLabel {
+  text-align: center;
+  color: white;
+  width: 48px;
+  height: 48px;
+  line-height: 48px;
+  background-color: #FA541C;
+  border-radius: 10px 10px 10px 10px;
+  cursor: pointer;
+  transition: .3s;
+}
+
+.footerEmailLabel:hover {
+  color: black;
+}
+
+.termsbox {
+  margin-top: 5rem;
+}
+
+@media only screen and (max-width: 991px) and (min-width: 300px)  {
+  .termsbox {
+    margin-top: 1rem;
+  }
+}
